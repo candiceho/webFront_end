@@ -1,0 +1,29 @@
+
+	
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	#big_pic .btn {		
+	font-size: 25px;
+}
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px)	{
+	#big_pic .btn {		
+	font-size: 20px;
+}	
+}
+
+@media screen and (max-width: 768px){
+	#big_pic .btn {		
+	font-size: 10px;
+	width:62%;
+                 }
+	
+		 }
+
+	
+
+
+
+
+

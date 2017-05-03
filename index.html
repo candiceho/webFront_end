@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Start Page</title>
+
+<link rel="stylesheet" href="AAAcss/index.css"> 
+<link rel="stylesheet" href="AAAcss/index_media.css"> 
+<link rel="stylesheet" href="AAAcss/bootstrap.min.css">
+
+
+</head>
+<body onload="loader_hide()">
+
+<div id="preloader"> 
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>          
+</div>
+
+
+<section id="big_pic">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">	  
+        <div id="tit1">Indoor</div>
+        <div id="tit2">Shopping</div>
+        <a href="home.html" class="btn btn-default ">START</a>
+		</div>
+    </div>
+  </div>
+</section>
+
+
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+
+
+
+<script type="text/javascript">
+rotate = 1;
+function loader_hide() {
+	rotate = 0; 
+	$("#preloader").fadeOut(1000);	
+
+     $("#tit1").addClass('bounce');
+     $("#tit2").effect("bounce", { times: 3 }, "slow" );
+	}
+
+	
+
+</script> 
+
+
+
+
+
+</body>
+</html>

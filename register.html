@@ -1,0 +1,356 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Register Page</title>
+<link rel="stylesheet" type="text/css" href="AAAcss/register.css" /> 
+<link rel="stylesheet" type="text/css" href="AAAcss/register_media.css" /> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+</head>
+<body>
+
+
+
+
+<div class="header"  id="home_top">         
+
+<div class="row row1">
+
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 " id="title">                    
+ <div class="logo">
+			 	<span><a href="index.html">Indoor<span class="logo2">Shopping</span></a></span>
+</div>
+</div> 
+
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7"  id="menu">
+         <div class="header-right">
+			   <div class="top-nav">
+			   		                                                              <!--<span class="menu"> <img src="images/icon.png" alt=""/></span>-->  
+					<ul class="menu-text">
+						<li><a  href="home.html"><span data-hover="Home">Home</span></a></li>
+						<li><a  href="products.html"><span data-hover="Products">Products</span></a></li>
+						<li><a class="active" href="contact.html">Contact</a></li>
+						<li><a href="account.html"><span data-hover="Account">Account</span></a></li>
+					</ul>
+			  </div>
+		   </div>
+	</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 cartc">	
+			<div class="cart">
+					<a href="cart.html">
+						<h4> My Cart<div class="glyphicon glyphicon-shopping-cart"></div></h4>
+					</a>									
+			</div>
+		 					
+</div>  
+
+  <div class="ham"><img src="images/menu.png"></div>
+</div>  <!-- menu end-->
+
+</div>  <!--header end-->
+
+
+<div class="top-menu">
+					<nav class="hamNav">
+					
+					
+						<ul class="hamNavu">
+							<li><a  href="home.html">Home</a></li>
+							<li><a href="products.html">Products</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="account.html">Account</a></li>
+							<li><a href="cart.html">MyCart</a></li>
+						<ul>
+					</nav>		
+</div>
+
+
+<div>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+</div>
+
+
+<!-- register -->
+		<div class="information">
+		
+		  	  <form id="F" action="home.html">   <!--action="<c:url value='/ register.jsp'/>"-->
+			  <div class="container">
+			  <div class="row">
+			  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 half" >
+			  
+			  <h3>PERSONAL INFORMATION</h3>
+					 <div id="fName" >
+						<span>First Name<label>*</label></span>
+						<input class="input" id="fname" name="fname" type="text"> <label class="error" id="fnameError"></label>
+					 </div>
+					 <div class="wow fadeInRight" data-wow-delay="0.4s">
+						<span>Last Name<label>*</label></span>
+						<input class="input" id="lname" name="lname" type="text"> <label class="error" id="lnameError"></label>
+					 </div>
+					 <div class="wow fadeInRight" data-wow-delay="0.4s">
+						 <span>Email Address<label>*</label></span>
+						 <input class="input" id="email" name="email" type="text"> <label class="error" id="emailError"></label>
+					 </div>
+			  
+			  
+			  </div>
+			    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 half" >
+				
+				  <h3>LOGIN INFORMATION</h3>
+							  <div class="wow fadeInLeft" data-wow-delay="0.4s">
+								<span>Username<label>*</label></span>
+								<input class="input" id="username" name="username" type="text"> <label class="error" id="usernameError"></label>
+							 </div>
+							 <div class="wow fadeInLeft" data-wow-delay="0.4s">
+								<span>Password<label>*</label></span>
+								<input class="input" id="password" name="password" type="password"><label class="error" id="passwordError"></label>
+							 </div>
+							 
+							 <div class="wow fadeInRight" data-wow-delay="0.4s">
+								<span>RePassword<label>*</label></span>
+								<input class="input" id="repassword" name="repassword" type="password"><label class="error" id="repasswordError"></label>
+							 </div>
+							 
+					
+			  </div>
+			  </div><!--row end-->
+			   <input class="btn btn-primary" id="sub" name="sub" type="submit" value="submit"/>
+			  
+			  </div><!--container end-->
+				 
+				 
+					
+				</form>
+				
+			
+		   </div>
+	
+
+
+<!-- register -->	
+
+
+
+ <footer>
+		
+			<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" id="footer-detail">
+			<a href="...">@ 2015 Trustees of Boston University</a> | <a href="...">Search</a> | <a href="...">Directory</a> | <a href="...">Maps</a> | <a href="...">Contact</a> | <a href="...">Mobile Version</a>
+            </div>
+		
+
+		
+             <div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="footer-map">
+         <div><map name="social">
+		   <span id="follow">Follow Us</span>
+         <area href="#social" shape="circle" coords="20,22,18" target="1">
+          <area href="#social" shape="circle" coords="60,23,18" target="1">
+          <area href="#social" shape="circle" coords="102, 23,18" target="1">
+          <area href="#social" shape="circle" coords="145, 23, 18" target="1">
+          <area href="#social" shape="circle" coords="189, 23, 18" target="1">
+             </map>
+         <img src="images/footer.png" usemap="#social" />
+         </div>
+			</div>  <!-- row end-->			
+		</div>   <!-- container end-->
+</footer>
+<script>
+$(function(){
+$(".error").each(function(){
+showError($(this));
+});         // loop all error class 
+
+$("#sub").hover(
+function(){
+$("#sub").css({"background":"#7373b9"});
+},
+function(){
+$("#sub").css({"background":"#8f4586"});
+});     
+
+
+
+$(".input").focus(function(){       // when focus error hidden
+var labelId=$(this).attr("id")+"Error";
+$("#"+labelId).text("");  // clear label
+showError($("#"+labelId));   // hidden label
+
+});
+
+$(".input").blur(function(){
+var a= $(this).attr("id");
+var b = "check"+a.substring(0,1).toUpperCase()+a.substring(1)+"()"; // function name 
+eval(b);    // string is excuted as javascript code 
+});
+
+
+
+
+});
+
+
+
+$("#F").submit(function(){   // when submit check all
+aler(1);
+var bool= true;
+if(!checkUsername()){
+bool=false;}
+
+if(!checkPassword()){
+bool=false;}
+
+if(!checkRepassword()){
+bool=false;}
+
+if(!checkEmial()){
+bool=false;}
+
+if(!checkLname()){
+bool=false;}
+
+if(!checkFname()){
+bool=false;}
+alert(bool);
+
+return bool;
+});
+
+
+//check username
+function checkUsername(){
+var id= "username";
+var value=$("#"+id).val();
+if(!value){       // empty?
+$("#"+id+"Error").text("userName cannot be empty!");
+showError($("#"+id+"Error"));
+return false;
+}
+if(value.length<3 || value.length>20){       // length of username 3~20
+$("#"+id+"Error").text("userName length must within 3~20!");
+showError($("#"+id+"Error"));
+return false;
+}
+return true;
+}
+
+
+// check password
+function checkPassword(){
+var id= "password";
+var value=$("#"+id).val();
+if(!value){       // empty?
+$("#"+id+"Error").text("password cannot be empty!");
+showError($("#"+id+"Error"));
+return false;
+}
+if(value.length<3 || value.length>20){       // length of username 3~20
+$("#"+id+"Error").text("password length must within 3~20!");
+showError($("#"+id+"Error"));
+return false;
+}
+return true;
+}
+
+// check confirm password 
+function checkRepassword(){
+var id= "repassword";
+var value=$("#"+id).val();
+if(!value){       // empty?
+$("#"+id+"Error").text("confirm cannot be empty!");
+showError($("#"+id+"Error"));
+return false;
+}
+if(value!=$("#password").val()){       // 2 times match 
+$("#"+id+"Error").text("password not match");
+showError($("#"+id+"Error"));
+return false;
+}
+return true;
+}
+
+// check email
+function checkEmail(){
+var id= "email";
+var value=$("#"+id).val();
+if(!value){       // empty?
+$("#"+id+"Error").text("email cannot be empty!");
+showError($("#"+id+"Error"));
+return false;
+}
+
+if(!/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/.test(value)){         // email format 
+$("#"+id+"Error").text("please enter valid email format!");
+showError($("#"+id+"Error"));
+return false;
+}
+return true;
+}
+
+// check lastname
+function checkLname(){
+var id= "lname";
+var value=$("#"+id).val();
+if(!value){       // empty?
+$("#"+id+"Error").text("lastname cannot be empty!");
+showError($("#"+id+"Error"));
+return false;
+}
+if(value.length<3 || value.length>20){       // length of username 3~20
+$("#"+id+"Error").text("lastname length must within 3~20!");
+showError($("#"+id+"Error"));
+return false;
+}
+return true;
+}
+
+// check firstname
+function checkFname(){
+var id= "fname";
+var value=$("#"+id).val();
+if(!value){       // empty?
+$("#"+id+"Error").text("firstname cannot be empty!");
+showError($("#"+id+"Error"));
+return false;
+}
+if(value.length<3 || value.length>20){       // length of username 3~20
+$("#"+id+"Error").text("firstname length must within 3~20!");
+showError($("#"+id+"Error"));
+return false;
+}
+return true;
+}
+
+
+
+
+						$( ".ham" ).click(function() {
+						  $( ".hamNav" ).slideToggle( "slow");
+						});
+						
+
+
+
+
+
+
+
+function showError(ele){
+var text= ele.text();
+if(!text){
+ele.css({"display":"none"});}
+else{
+ele.css({"display":""});}}
+</script>
+	
+	
+	
+</body>
+</html>

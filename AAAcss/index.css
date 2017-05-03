@@ -1,0 +1,126 @@
+
+#preloader{		
+  	width: 100%;
+	height: 100%;
+	background-color: #f0f0f0;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 99999;
+	text-align:center;
+}
+
+
+#preloader span{
+    display:block;
+    bottom:45%;      
+	left: 48%;	
+    width: 10px;
+    height: 6px;
+    background:#9b59b6;
+    position:absolute;
+	-webkit-animation: preloader 1.5s  infinite ease-in-out;          /*in a low speed*/
+    animation: preloader 1.5s  infinite ease-in-out;
+}
+
+#preloader span:nth-child(2){
+    left:49%;
+    animation-delay: .2s;
+
+}
+#preloader span:nth-child(3){
+    left:50%;
+    animation-delay: .4s;
+}
+#preloader span:nth-child(4){
+    left:51%;
+    animation-delay: .6s;
+}
+#preloader span:nth-child(5){
+    left:52%;
+    animation-delay: .8s;
+}
+
+ @-webkit-keyframes preloader{
+	    0% {height:5px;transform:translateY(0px);background:#9b59b6;}
+    25% {height:30px;transform:translateY(15px);background:#3498db;}
+    50% {height:5px;transform:translateY(0px);background:#9b59b6;}
+    100% {height:5px;transform:translateY(0px);background:#9b59b6;} 
+ }
+ 
+@keyframes preloader {
+    0% {height:5px;transform:translateY(0px);background:#9b59b6;}
+    25% {height:30px;transform:translateY(15px);background:#3498db;}
+    50% {height:5px;transform:translateY(0px);background:#9b59b6;}
+    100% {height:5px;transform:translateY(0px);background:#9b59b6;}
+}
+
+
+
+
+
+
+#big_pic{
+	height:100%;
+	width:100%;
+	font-weight:bold;
+	font-family:  arial,sans-serif;
+	background: url('../images/start1.jpg');
+    background-repeat: no-repeat;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	height: 100vh;                        /*put item in center on vertical direction*/
+	text-align: center;
+
+}   
+#big_pic .btn {
+	color: #fff;
+	background: #ff359a;
+	width:38%;
+	font-size: 30px;
+	font-weight: bolder;
+	
+	border-radius: 4px;
+	border: none;
+	
+	padding: 21px 41px;
+	margin-top: 62px;
+}
+#big_pic .btn:hover {
+	background: #fff;
+	color: #ff359a;                     /*eb5424*/
+	transition: all 0.4s ease-in-out;
+}
+
+ 
+
+
+
+@keyframes bounce {
+
+	    0% { transform: translateY(-80px);}
+        40% {transform: translateY(80px);}
+        80% {transform: translateY(-15px);}
+	
+    }
+
+
+#tit1  {
+        text-align: center;     
+        width: 180px;
+		font-size:60px;
+        margin: 0 auto;   
+        animation-duration: 1.5s;
+        animation-delay: .2s;
+        animation-timing-function: ease;      /*begin in low speed and turn fast*/   
+    }
+
+#tit1.bounce {
+
+        animation-name: bounce;
+    }	
+#tit2{
+	font-size: 40px;
+	color:#fff;
+}

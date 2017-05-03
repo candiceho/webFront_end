@@ -1,0 +1,176 @@
+
+
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Indoor Shopping</title>	
+<link rel="stylesheet" type="text/css" href="AAAcss/account.css" /> 
+<link rel="stylesheet" type="text/css" href="AAAcss/account_media.css" /> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/css/jquery-ui.min.css">
+
+</head>
+<body>
+
+
+
+<div class="header"  id="home_top">         
+
+<div class="row row1">
+
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 " id="title">                    
+ <div class="logo">
+			 	<span><a href="index.html">Indoor<span class="logo2">Shopping</span></a></span>
+</div>
+</div> 
+
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7"  id="menu">
+         <div class="header-right">
+			   <div class="top-nav">
+			   		                                                              <!--<span class="menu"> <img src="images/icon.png" alt=""/></span>-->  
+					<ul class="menu-text">
+						<li><a  href="home.html"><span data-hover="Home">Home</span></a></li>
+						<li><a  href="products.html"><span data-hover="Products">Products</span></a></li>
+						<li><a href="contact.html"><span data-hover="Contact">Contact</span></a></li>
+						<li><a class="active" href="account.html">Account</a></li>
+					</ul>
+			  </div>
+		   </div>
+	</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 cartc">	
+			<div class="cart">
+					<a href="cart.html">
+						<h4> My Cart<div class="glyphicon glyphicon-shopping-cart"></div></h4>
+					</a>									
+			</div>
+		 					
+</div>  
+
+  <div class="ham"><img src="images/menu.png"></div>
+</div>  <!-- menu end-->
+
+</div>  <!--header end-->
+
+
+<div class="top-menu">
+					<nav class="hamNav">
+					
+				
+						<ul class="hamNavu">
+							<li><a href="home.html">Home</a></li>
+							<li><a href="products.html">Products</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="account.html">Account</a></li>
+							<li><a href="cart.html">MyCart</a></li>
+						<ul>
+					</nav>		
+</div>
+
+
+
+<div class="container body">
+<div class="back-hide"><br/><br/><br/><br/><br/><br/></div>
+
+
+<div class="row row2">
+<div class="account-page">
+		<div class="container">
+			<div class="account_grid">
+				<div class="col-md-6 account-left " >
+					<h3>NEW CUSTOMERS</h3>
+					<p class="rd">By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
+				 <p><a class="btn btn-default red" href="register.html" role="button">Create an Account &raquo;</a></p>
+			   </div>
+			   <div class="col-md-6 account-right" >
+					<h3>REGISTERED CUSTOMERS</h3>
+					<p>If you have an account with us, please log in.</p>
+					<form>
+						<div>
+							<span>EmailAddress<label>*</label></span>
+							<input type="email"> 
+						</div>
+						<div>
+							<span>Password<label>*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+							<input type="password"> 
+						</div>
+						<a class="forgot" href="#">Forgot Your Password?</a>
+						 <p><a class="btn btn-default red" role="button">Login &raquo;</a></p>					
+					</form>
+			   </div>	
+			</div>
+		</div>
+	</div>
+
+</div>   <!-- row end-->
+
+</div>  <!-- container end-->
+
+
+      <!-- FOOTER -->
+      <footer>
+
+			<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" id="footer-detail">
+			<a href="...">@ 2015 Trustees of Boston University</a> | <a href="...">Search</a> | <a href="...">Directory</a> | <a href="...">Maps</a> | <a href="...">Contact</a> | <a href="...">Mobile Version</a>
+            </div>
+		
+
+		
+             <div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="footer-map">
+         <div><map name="social">
+		   <span id="follow">Follow Us</span>
+         <area href="#social" shape="circle" coords="20,22,18" target="1">
+          <area href="#social" shape="circle" coords="60,23,18" target="1">
+          <area href="#social" shape="circle" coords="102, 23,18" target="1">
+          <area href="#social" shape="circle" coords="145, 23, 18" target="1">
+          <area href="#social" shape="circle" coords="189, 23, 18" target="1">
+             </map>
+         <img src="images/footer.png" usemap="#social" />
+         </div>
+			</div>  <!-- row end-->			
+		</div>   <!-- container end-->
+ 
+      </footer>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+
+
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+rotate = 1;
+function loader_hide() {
+	rotate = 0; 
+	$("#preloader").fadeOut(1000);	
+
+	/*$("#title2").effect("bounce"); */
+     $(".hh").addClass('bounce');
+
+	}
+
+ 
+$( ".ham" ).click(function() {
+$( ".hamNav" ).slideToggle( "slow");
+});
+
+</script> 
+
+
+
+
+
+</body>
+</html>
